@@ -1,0 +1,25 @@
+# Для обработки PDF и OCR
+pytesseract==0.3.10
+pdf2image==1.16.3
+opencv-python==4.8.0.74
+# Pillow>=9.0.0
+
+# Для обработки и анализа текста
+nltk==3.8.1
+spacy==3.6.1
+ru-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/ru_core_news_sm-3.6.0/ru_core_news_sm-3.6.0-py3-none-any.whl
+symspellpy==6.7.7
+pymorphy3>=1.0.0
+
+# Для модели и машинного обучения
+# torch>=1.13.0
+transformers>=4.30.0
+datasets>=2.10.0
+scikit-learn>=1.0.0
+trl>=0.7.2
+peft>=0.4.0
+
+# Утилиты
+tqdm>=4.64.0
+numpy>=1.22.0
+
