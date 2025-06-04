@@ -77,6 +77,8 @@ sudo apt-get install tesseract-ocr-rus tesseract-ocr-eng
 
 #### Linux
 ```bash
+sudo apt install libnss3-dev
+sudo apt install libgpgme-dev
 sudo apt-get install poppler-utils
 ```
 
